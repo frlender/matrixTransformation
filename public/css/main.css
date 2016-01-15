@@ -1,0 +1,40 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.col{
+  display: inline-block;
+  padding:30px;
+}
+
+.ctrl{
+  vertical-align: top;
+}
+
+.ctrl textarea{
+  height: 100px;
+  font-size: 3em;
+  width: 150px;
+}
+
+.ctrl button{
+  font-size: 2em
+}
+
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
